@@ -1,0 +1,44 @@
+# Secret / config
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.jks
+*.keystore
+secrets.*
+local.properties
+
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+.vs/
+*.csproj
+*.sln
+*.user
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# JetBrains / VS Code
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node/Python nếu có
+node_modules/
+venv/
+__pycache__/
