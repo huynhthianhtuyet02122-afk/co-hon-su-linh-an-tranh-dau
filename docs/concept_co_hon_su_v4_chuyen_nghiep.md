@@ -1144,14 +1144,14 @@ Chưa làm ngay:
 
 Workflow đã chốt:
 
-- **Codex:** agent code chính.
-- **RooCode:** kiểm tra an toàn, Git, Gitleaks, commit/push.
-- **ChatGPT:** mentor/PM kỹ thuật, xem repo GitHub public.
+- **CoHonSu Unity Builder / Codex:** agent code chính.
+- **CoHonSu Safety Git:** kiểm tra an toàn, Git, Gitleaks, commit/push sau khi được xác nhận.
+- **ChatGPT:** mentor/PM tổng ở ngoài Multica, review hướng đi và repo GitHub public.
 
 Nguyên tắc:
 
-- RooCode không tự sửa logic code nếu chưa được yêu cầu.
-- Sau mỗi lần Codex code xong, RooCode quét Gitleaks trước khi commit.
+- CoHonSu Safety Git không tự sửa logic code nếu chưa được yêu cầu.
+- Sau mỗi lần CoHonSu Unity Builder / Codex code xong, CoHonSu Safety Git quét Gitleaks trước khi commit.
 - Không push GitHub nếu có secret.
 - Không lộ token/API key/password/private key.
 - ChatGPT review qua repo GitHub public sau khi push.
@@ -1202,5 +1202,5 @@ Nguyên tắc:
 11. Thiết kế Tân Cơ Đài.
 12. Thiết kế nhân vật chính và An Nhiên.
 13. Phạm vi lát cắt chính thức đầu tiên.
-14. Thứ tự giao việc cho Codex/RooCode.
+14. Thứ tự giao việc cho CoHonSu Unity Builder / Codex và CoHonSu Safety Git.
 15. Chuẩn repo GitHub và Gitleaks.

@@ -957,17 +957,17 @@
 
 ## 1. Vai trò agent
 
-- Codex: code chính
-- RooCode: Git, Gitleaks, commit, push
-- ChatGPT: mentor / PM kỹ thuật
+- CoHonSu Unity Builder / Codex: code chính
+- CoHonSu Safety Git: Git, Gitleaks, commit, push sau khi được xác nhận
+- ChatGPT: mentor / PM tổng ở ngoài Multica
 
 ## 2. Quy trình làm code
 
-- Codex tạo hoặc sửa chức năng
-- RooCode kiểm tra an toàn
-- RooCode chạy Gitleaks
-- RooCode commit sau khi được xác nhận
-- RooCode hỏi trước khi push
+- CoHonSu Unity Builder / Codex tạo hoặc sửa chức năng
+- CoHonSu Safety Git kiểm tra an toàn
+- CoHonSu Safety Git chạy Gitleaks
+- CoHonSu Safety Git commit sau khi được xác nhận
+- CoHonSu Safety Git hỏi trước khi push
 - ChatGPT review repo GitHub public
 
 ## 3. Luật an toàn
@@ -1046,7 +1046,7 @@
 
 - Phạm vi lát cắt chính thức đầu tiên
 - Thứ tự giao việc cho Codex
-- Thứ tự kiểm tra của RooCode
+- Thứ tự kiểm tra của CoHonSu Safety Git
 - Chuẩn repo GitHub
 - Chuẩn Gitleaks
 

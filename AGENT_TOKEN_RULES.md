@@ -3,6 +3,15 @@
 ## Mục tiêu
 
 Tối ưu token khi làm dự án dài hạn Cơ Hồn Sư bằng cách giảm input không cần thiết và giới hạn output quá dài.
+Từ bây giờ, để tiết kiệm token:
+
+- Không dùng lệnh lấy toàn bộ comment history nếu không cần.
+- Không đọc full issue comment list dạng JSON nếu task chỉ cần trạng thái mới nhất.
+- Ưu tiên đọc AGENTS.md, TASKS.md, DEV_LOG.md.
+- Chỉ đọc comment gần nhất hoặc handoff summary gần nhất nếu cần.
+- Không mở concept dài hoặc miro outline dài nếu task không liên quan trực tiếp.
+- Mỗi issue chỉ làm một việc cụ thể.
+- Output ngắn gọn, không lặp lại toàn bộ nội dung file.
 
 ## Input rules
 
@@ -40,7 +49,7 @@ Tối ưu token khi làm dự án dài hạn Cơ Hồn Sư bằng cách giảm i
 - Mỗi task chỉ nên có một mục tiêu chính.
 - Không vừa refactor, vừa thêm feature, vừa sửa Git trong cùng một task.
 - Không để Codex vừa design, vừa code, vừa commit/push.
-- RooCode không sửa logic code nếu chưa được yêu cầu.
+- CoHonSu Safety Git chỉ xử lý Git/Gitleaks/commit/push an toàn, không sửa logic code nếu chưa được yêu cầu.
 
 ## Tool usage rules
 
