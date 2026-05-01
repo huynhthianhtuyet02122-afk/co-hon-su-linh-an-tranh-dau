@@ -6,9 +6,9 @@
 - Đã chuyển workflow Git/Gitleaks từ RooCode sang CoHonSu Safety Git.
 - Tạo PROJECT_MEMORY.md để giảm token input cho các issue sau.
 - Rút gọn AGENTS.md để agent không nạp context dài mỗi issue.
-- Đang chuẩn hóa tài liệu nền trước Unity.
-- Trạng thái: pre-Unity project / documentation foundation.
-- Chưa tạo Unity project.
+- Unity project chính thức đã tạo tại root repo.
+- Official Unity Foundation v0.1 đã push ở commit `3eba809`.
+- Giai đoạn tiếp theo: kiểm tra kiến trúc foundation và chuẩn bị task gameplay slice đầu tiên.
 - Chưa code gameplay.
 
 ## 2026-04-28

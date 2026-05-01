@@ -4,9 +4,9 @@
 
 ## Trạng thái hiện tại
 
-- Pre-Unity project / documentation foundation.
-- Đang chuẩn hóa tài liệu nền trước khi tạo Unity project chính thức.
-- Chưa tạo Unity project.
+- Unity project chính thức đã tạo tại root repo.
+- Official Unity Foundation v0.1 đã push ở commit `3eba809`.
+- Giai đoạn tiếp theo: kiểm tra kiến trúc foundation và chuẩn bị task gameplay slice đầu tiên.
 - Chưa code gameplay.
 
 ## Cách đọc tài liệu
@@ -34,7 +34,7 @@ Concept dài nằm trong `docs/` và chỉ nên đọc khi task liên quan game 
 
 ## Guardrails
 
-- Không tạo Unity project nếu task chưa yêu cầu.
+- Không tạo lại Unity project nếu task chưa yêu cầu.
 - Không code gameplay nếu task chưa yêu cầu.
 - Không commit/push ngoài CoHonSu Safety Git.
 - Không nhét concept dài vào README.md hoặc AGENTS.md.
