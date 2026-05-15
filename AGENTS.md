@@ -26,5 +26,12 @@
 - Không in full diff/log/file dài ra comment.
 - Output tối đa 20 dòng nếu không được yêu cầu chi tiết.
 
+## Luật chia issue
+- Mỗi issue chỉ làm một mục tiêu nhỏ, có kết quả kiểm được.
+- Không gộp các task phụ thuộc nhau vào cùng một issue nếu có thể tách theo thứ tự.
+- Không giao nhiều issue cùng lúc khi các issue còn phụ thuộc lẫn nhau.
+- Issue phải ghi rõ phạm vi không làm và acceptance criteria ngắn gọn.
+- Prompt giao việc phải nêu file/skill được đọc; không bắt agent đọc lại concept dài nếu task không cần.
+- Báo cáo cuối ngắn: đã làm gì, file ảnh hưởng, cách kiểm tra, bước tiếp theo.
 ## Luật an toàn
 - Không in token/API key/password/private key; nếu phát hiện secret, dừng và báo Safety Git; nếu tiếng Việt lỗi encoding, dừng và báo `Encoding error`.

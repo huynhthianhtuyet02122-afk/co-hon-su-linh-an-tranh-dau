@@ -2,8 +2,8 @@
 
 ## Game Design Concept Document — Bản sắp xếp chuyên nghiệp
 
-**Tên tạm thời:** Cơ Hồn Sư: Linh Ấn Tranh Đấu  
-**Tên quốc tế đề xuất:** Soul Cue: Ascension  
+**Tên game tạm giữ:** Cơ Hồn Sư: Linh Ấn Tranh Đấu
+**Tên quốc tế tạm giữ:** Soul Cue: Ascension
 **Nền tảng định hướng:** Unity 3D  
 **Hình thức chơi:** Offline single-player  
 **Giai đoạn hiện tại:** Ý tưởng / tiền sản xuất / làm game design board  
@@ -15,9 +15,9 @@
 
 _Cơ Hồn Sư: Linh Ấn Tranh Đấu_ là game 3D fantasy hiện đại, phong cách anime, kết hợp **bi-da chiến thuật**, **RPG**, **leo rank offline**, **khám phá Đảo Lưu Đày** và **cốt truyện bí ẩn**.
 
-Trong thế giới game, tổ chức **Thiên Khung Hội** tạo ra trò chơi toàn cầu tên **Linh Cơ Đấu**. Người chơi trở thành **Cơ Hồn Sư**, dùng gậy cơ ma thuật để điều khiển các viên **Linh Cầu** trên bàn đấu. Mỗi Linh Cầu đại diện cho một **Linh Ấn** bên trong người chơi. Khi Linh Cầu bị đánh vào lỗ, Linh Ấn tương ứng bị phong ấn tạm thời.
+Trong **Linh Giới Nhân Gian**, tổ chức **Thiên Khung Hội** tạo ra trò chơi toàn cầu tên **Linh Cơ Đấu**. Người chơi trở thành **Cơ Hồn Sư**, dùng gậy cơ ma thuật để điều khiển các viên **Linh Cầu** trên bàn đấu. Mỗi Linh Cầu đại diện cho một phần **Linh Xác / Linh Ấn** bên trong người chơi. Khi Linh Cầu bị đánh vào lỗ, phần Linh Xác / Linh Ấn tương ứng bị phong ấn tạm thời.
 
-Người chơi tham gia để leo rank, mạnh hơn và tìm sự thật về **An Nhiên**, người quan trọng đã biến mất sau một trận đấu cấp cao tại **Thần Cơ Tháp**.
+Người chơi tham gia để leo rank, mạnh hơn và tìm sự thật về **An Nhiên**, người thầy đầu tiên / người dẫn đường cũ đã biến mất sau một trận đấu cấp cao tại **Thần Cơ Tháp**.
 
 Sự thật dần hé lộ: Linh Cơ Đấu không chỉ là môn thể thao đổi đời. Nó là một hệ thống huấn luyện, sàng lọc và thu thập Linh Lực để chuẩn bị cho biến cố **Đại Sụp Linh**. Phản diện chính **Elias Vân** muốn dựng **Thiên Khung Trận** để bảo vệ thế giới, nhưng cách làm của ông biến con người thành nhiên liệu và tước đi quyền lựa chọn của họ.
 
@@ -31,7 +31,7 @@ Sự thật dần hé lộ: Linh Cơ Đấu không chỉ là môn thể thao đ�
 - Mỗi viên bi là một phần sức mạnh / Linh Ấn.
 - Thua không game over mà mở ra gameplay khám phá Đảo Lưu Đày.
 - Leo rank bằng hệ thống 5 sao.
-- Cơ Hồn Thẻ vừa là menu gameplay, vừa là công cụ kể chuyện.
+- Cơ Hồn Thẻ là menu chính kiêm công cụ kể chuyện.
 - Game offline nhưng vẫn có cảm giác thi đấu trong một hệ thống rank toàn cầu.
 
 ## 1.2. Trụ cột cảm xúc
@@ -91,9 +91,9 @@ Thông điệp phụ:
 
 # 3. Thế giới & bối cảnh
 
-## 3.1. Thế giới fantasy hiện đại
+## 3.1. Linh Giới Nhân Gian
 
-Game diễn ra trong một thế giới nơi thành phố, công nghệ, livestream, quảng cáo, bảng xếp hạng, giải đấu và mạng xã hội cùng tồn tại với nguồn năng lượng cổ xưa gọi là **Linh Lực**.
+Game diễn ra trong thế giới chính gọi là **Linh Giới Nhân Gian**, nơi thành phố, công nghệ, livestream, quảng cáo, bảng xếp hạng, giải đấu và mạng xã hội cùng tồn tại với nguồn năng lượng cổ xưa gọi là **Linh Lực**.
 
 Linh Lực tồn tại bên trong mỗi con người. Nó ảnh hưởng đến:
 
@@ -119,6 +119,8 @@ Vai trò:
 ## 3.3. Linh Cơ Đấu
 
 **Linh Cơ Đấu** là trò chơi / môn thể thao toàn cầu do Thiên Khung Hội tạo ra.
+
+Linh Cơ Đấu không dùng nguyên luật bi-da ngoài đời. Luật thi đấu là luật fantasy riêng xoay quanh **Linh Cầu**, **Linh Ấn** và **Linh Xác**.
 
 Bên ngoài, nó được xem là:
 
@@ -360,15 +362,7 @@ Kết luận: Linh Ấn Không Xác Định
 
 ## 5.4. An Nhiên
 
-**Vai trò:** Người quan trọng đã biến mất / động lực cảm xúc chính.
-
-Có thể là:
-
-- Chị gái.
-- Anh trai.
-- Bạn thân.
-- Mentor.
-- Người thầy đầu tiên.
+**Vai trò:** Người thầy đầu tiên / người dẫn đường cũ của nhân vật chính, đồng thời là động lực cảm xúc chính đã biến mất.
 
 An Nhiên từng tham gia trận đấu cấp cao tại **Thần Cơ Tháp** và biến mất khỏi bảng xếp hạng. Thiên Khung Hội tuyên bố An Nhiên tự rút lui, nhưng người chơi tìm thấy một viên Linh Cầu nứt còn lưu lại lời cảnh báo:
 
@@ -388,11 +382,12 @@ Vai trò mới đã chốt:
 
 ## 6.1. Khái niệm
 
-Mỗi người tham gia Linh Cơ Đấu sở hữu một bộ Linh Ấn. Linh Ấn được thể hiện bằng các viên **Linh Cầu** trên bàn đấu.
+Mỗi người tham gia Linh Cơ Đấu sở hữu một bộ Linh Ấn. Linh Ấn và các phần Linh Xác chiến đấu được thể hiện bằng các viên **Linh Cầu** trên bàn đấu.
 
 Khi một Linh Cầu rơi vào lỗ:
 
-- Linh Ấn tương ứng bị phong ấn tạm thời.
+- Phần Linh Xác / Linh Ấn tương ứng của đối thủ bị phong ấn tạm thời.
+- Phần bị phong ấn không phải mất cơ thể thật, mà là phần Linh Xác chiến đấu bị tan rã / khóa tạm thời.
 - Cơ thể / trang phục mờ aura.
 - Biểu tượng Linh Ấn nứt vỡ.
 - UI thông báo trạng thái phong ấn.
@@ -401,13 +396,13 @@ Khi một Linh Cầu rơi vào lỗ:
 
 | Linh Ấn | Đại diện              | Khi bị phong ấn                        |
 | ------- | --------------------- | -------------------------------------- |
-| Ấn Thủ  | Điều khiển lực đánh   | Lực đánh yếu hoặc khó ổn định          |
-| Ấn Nhãn | Quan sát              | Đường ngắm ngắn hơn, khó thấy hướng bi |
-| Ấn Túc  | Di chuyển             | Di chuyển chậm hơn ở Đảo Lưu Đày       |
-| Ấn Tâm  | Ý chí / tinh thần     | Dễ bị hiệu ứng bất lợi                 |
-| Ấn Trí  | Phân tích chiến thuật | Mất gợi ý đường bi hoặc gợi ý sai lệch |
-| Ấn Khí  | Năng lượng kỹ năng    | Kỹ năng hồi chậm hơn                   |
-| Ấn Hồn  | Linh lực cốt lõi      | Rơi vào trạng thái nguy hiểm           |
+| Ấn Thủ  | Điều khiển lực đánh   | Giảm khả năng điều khiển lực đánh      |
+| Ấn Nhãn | Quan sát              | Giảm khả năng quan sát đường bi        |
+| Ấn Túc  | Di chuyển             | Giảm sự linh hoạt khi di chuyển trong Linh Giới / Đảo Lưu Đày |
+| Ấn Tâm  | Ý chí / tinh thần     | Giảm khả năng ổn định tinh thần trước hiệu ứng bất lợi |
+| Ấn Trí  | Phân tích chiến thuật | Giảm khả năng đọc bàn đấu và phân tích chiến thuật |
+| Ấn Khí  | Năng lượng kỹ năng    | Giảm khả năng vận hành kỹ năng         |
+| Ấn Hồn  | Linh lực cốt lõi      | Phần cốt lõi của Linh Xác, gắn với điều kiện kết thúc trận |
 
 ## 6.3. Màu và hiệu ứng Linh Ấn
 
@@ -438,28 +433,36 @@ Khi một Linh Cầu rơi vào lỗ:
 1. Vào sảnh chính.
 2. Chọn trận đấu.
 3. Đấu Linh Cơ Đấu.
-4. Nếu thắng: nhận thưởng, hồi phục, +1 sao rank.
+4. Nếu thắng: nhận thưởng, hồi phục phần Linh Xác / Linh Ấn bị phong ấn trong trận, +1 sao rank.
 5. Nếu đủ 5 sao: mở Trận Thăng Rank.
 6. Nếu thua: mất sao nếu còn sao, luôn vào Đảo Lưu Đày.
-7. Tìm lại Linh Ấn.
+7. Tìm lại phần Linh Xác / Linh Ấn đã mất.
 8. Quay về sảnh chính.
 9. Tiếp tục leo rank.
 10. Mở khóa cốt truyện mới.
 
 ## 7.2. Hai trục gameplay chính
 
-- Đấu bi-da ma thuật để leo rank.
+- Đấu Linh Cơ Đấu fantasy để leo rank.
 - Khám phá Đảo Lưu Đày để tìm lại bản thân sau thất bại.
 
 ---
 
 # 8. Luật thắng thua
 
-## 8.1. Khi thắng trận thường
+## 8.1. Cơ chế phong ấn trong trận
+
+- Mỗi trận Linh Cơ Đấu sử dụng các Linh Cầu đại diện cho từng phần Linh Xác / Linh Ấn.
+- Khi một người chơi đánh một Linh Cầu vào lỗ, đối thủ sẽ bị phong ấn phần Linh Xác tương ứng.
+- Phần bị phong ấn không phải mất cơ thể thật, mà là phần Linh Xác chiến đấu bị tan rã / khóa tạm thời.
+- Các phần bị phong ấn ảnh hưởng trực tiếp đến khả năng thi đấu theo bảng Linh Ấn cơ bản.
+- Người đánh viên Linh Cầu cuối cùng vào lỗ sẽ thắng trận.
+
+## 8.2. Khi thắng trận thường
 
 Người chơi nhận:
 
-- Hồi phục toàn bộ Linh Ấn trong trận.
+- Hệ thống phục hồi toàn bộ phần Linh Xác / Linh Ấn đã bị phong ấn trong trận.
 - +1 sao rank.
 - Kinh nghiệm.
 - Vàng / tiền tệ.
@@ -468,7 +471,7 @@ Người chơi nhận:
 - Mảnh ký ức / cốt truyện.
 - Quyền mở trận, đấu trường hoặc nhiệm vụ mới nếu đạt điều kiện.
 
-## 8.2. Khi đủ 5 sao
+## 8.3. Khi đủ 5 sao
 
 Mỗi rank có 5 sao. Khi đủ 5 sao, Cơ Hồn Thẻ mở khóa **Trận Thăng Rank**.
 
@@ -482,9 +485,9 @@ Nếu thua Trận Thăng Rank:
 
 - Mất 1 sao.
 - Bị đưa đến Đảo Lưu Đày.
-- Phải tìm lại Linh Ấn trước khi quay về đấu trường.
+- Phải tìm lại phần Linh Xác / Linh Ấn đã mất trước khi quay về đấu trường.
 
-## 8.3. Khi thua
+## 8.4. Khi thua
 
 Thua chỉ có một loại.
 
@@ -493,9 +496,10 @@ Luật:
 - Nếu đang có 1–5 sao: mất 1 sao.
 - Nếu đang có 0 sao: không mất sao và không rớt rank ở bản cơ bản.
 - Dù có bao nhiêu sao, người chơi luôn bị đưa đến Đảo Lưu Đày.
-- Một hoặc nhiều Linh Ấn bị thất lạc.
+- Một hoặc nhiều phần Linh Xác / Linh Ấn bị thất lạc.
 - Quyền thi đấu bị tạm khóa.
-- Người chơi phải hoàn thành thử thách trên đảo để quay lại.
+- Người thua phải tìm lại các phần Linh Xác / Linh Ấn đã mất thông qua thử thách trên đảo.
+- Sau khi tìm lại đủ phần bị mất, người chơi mới được quay lại đấu trường.
 
 Điểm chốt:
 
@@ -547,7 +551,7 @@ Tiến trình đề xuất:
 
 ## 9.3. Cơ Hồn Thẻ
 
-**Cơ Hồn Thẻ** là vật phẩm vừa có vai trò gameplay, vừa có vai trò cốt truyện.
+**Cơ Hồn Thẻ** là menu chính của game, đồng thời là công cụ kể chuyện.
 
 Trong gameplay, thẻ dùng để xem:
 
@@ -564,7 +568,7 @@ Trong gameplay, thẻ dùng để xem:
 
 Trong cốt truyện:
 
-- Ban đầu là menu hỗ trợ.
+- Ban đầu là menu chính hỗ trợ người chơi.
 - Về sau hiện dữ liệu lạ.
 - Cho thấy Thiên Khung Hội đang theo dõi người chơi.
 - Dần hé lộ dữ liệu về Chân Cơ Hồn.
@@ -598,9 +602,11 @@ Cơ Hồn Thẻ
 
 ## 10.1. Vai trò
 
-Đảo Lưu Đày là nơi những Cơ Hồn Sư thất bại bị đưa đến để tìm lại Linh Ấn.
+Đảo Lưu Đày là nơi những Cơ Hồn Sư thất bại bị đưa đến để tìm lại các phần Linh Xác / Linh Ấn đã mất.
 
 Nó không chỉ là nơi hồi phục mà còn là nơi chứa bí mật của thế giới.
+
+Bản đầu của Đảo Lưu Đày là khu vực nhỏ, tuyến tính, tập trung vào nhiệm vụ tìm lại phần Linh Xác / Linh Ấn đã mất sau trận thua.
 
 Trên đảo có:
 
@@ -666,7 +672,7 @@ Bí mật về sau:
 
 ## 12.1. Dàn nhân vật lõi cần ưu tiên
 
-1. An Nhiên — người quan trọng đã biến mất.
+1. An Nhiên — người thầy đầu tiên / người dẫn đường cũ đã biến mất.
 2. Lâm Vô Cơ — mentor.
 3. Hạo Nhiên — rival.
 4. Mika — bạn đồng hành.
@@ -753,7 +759,7 @@ Câu thoại:
 
 - Ghi chép tên Cơ Hồn Sư từng rơi xuống đảo.
 - Biết luật thật của Linh Cơ Đấu.
-- Giao nhiệm vụ tìm lại Linh Ấn.
+- Giao nhiệm vụ tìm lại phần Linh Xác / Linh Ấn đã mất.
 - Cảnh báo về những người không thể quay về.
 
 Câu thoại:
@@ -873,7 +879,7 @@ Câu hỏi còn lại:
 
 ## 14.1. Danh sách đấu trường
 
-1. **Tân Cơ Đài** — sân tập đầu tiên, dành cho tân thủ.
+1. **Tân Cơ Đài** — đấu trường nhập môn đầu tiên tại Tân Linh Đô, dành cho tân thủ.
 2. **Đồng Thành Arena** — đấu trường thành phố công nghiệp.
 3. **Ngân Hải Đài** — đấu trường trên biển.
 4. **Kim Quang Palace** — đấu trường quý tộc, hào nhoáng.
@@ -1142,19 +1148,29 @@ Chưa làm ngay:
 
 # 18. Workflow agent khi bắt đầu code
 
-Workflow đã chốt:
+Workflow hiện tại đã chốt:
 
-- **CoHonSu Unity Builder / Codex:** agent code chính.
-- **CoHonSu Safety Git:** kiểm tra an toàn, Git, Gitleaks, commit/push sau khi được xác nhận.
-- **ChatGPT:** mentor/PM tổng ở ngoài Multica, review hướng đi và repo GitHub public.
+- **ChatGPT:** mentor/PM/game design/architecture/task breakdown; review hướng đi và review repo GitHub public.
+- **Multica:** điều phối issue, agent, trạng thái công việc và trao đổi giữa các vai trò.
+- **Codex / CoHonSu Unity Builder:** agent code chính, thực hiện thay đổi trong phạm vi issue được giao.
+- **GitHub:** nơi lưu source, xem diff/PR và phục vụ review public sau khi đã kiểm tra an toàn.
+- **Unity + VS Code:** môi trường phát triển chính cho gameplay, scene, asset setup và code C#.
 
-Nguyên tắc:
+Ghi chú về workflow cũ:
 
-- CoHonSu Safety Git không tự sửa logic code nếu chưa được yêu cầu.
-- Sau mỗi lần CoHonSu Unity Builder / Codex code xong, CoHonSu Safety Git quét Gitleaks trước khi commit.
-- Không push GitHub nếu có secret.
+- **RooCode** là workflow cũ, không còn là bước bắt buộc khi bắt đầu code.
+- **Hermes** không còn là thành phần chính trong workflow hiện tại.
+
+Nguyên tắc an toàn:
+
+- Codex không tự commit/push; commit/push chỉ thực hiện khi user xác nhận rõ.
+- Trước khi giao sang bước Git hoặc review, phải xem `git status` và `git diff` để biết chính xác file đã đổi.
+- Trước khi push public cần chạy Gitleaks hoặc kiểm tra secret tương đương.
+- Không push GitHub nếu có secret hoặc file nhạy cảm.
+- Không tạo token/API key/password/private key trong repo hoặc trong comment.
 - Không lộ token/API key/password/private key.
-- ChatGPT review qua repo GitHub public sau khi push.
+- CoHonSu Safety Git không tự sửa logic code nếu chưa được yêu cầu.
+- ChatGPT review qua repo GitHub public sau khi push an toàn.
 
 ---
 
@@ -1179,7 +1195,7 @@ Nguyên tắc:
 17. Đủ 5 sao mở Trận Thăng Rank.
 18. Thua nếu có sao thì -1 sao.
 19. Thua ở 0 sao không bị trừ sao, nhưng vẫn vào Đảo Lưu Đày.
-20. Cơ Hồn Thẻ là menu gameplay và công cụ kể chuyện.
+20. Cơ Hồn Thẻ là menu chính và công cụ kể chuyện.
 21. Không làm MVP thử rời rạc.
 22. Unity project đầu tiên là project chính thức.
 23. Nhánh triển khai đổi thành Nền móng dự án chính.
@@ -1187,20 +1203,20 @@ Nguyên tắc:
 
 ---
 
-# 20. Những phần cần chốt tiếp
+# 20. Những phần đã chốt bổ sung
 
-1. Tên game chính thức.
-2. Tên thế giới.
-3. Tên thành phố chính có giữ Tân Linh Đô không.
-4. Quan hệ chính thức giữa người chơi và An Nhiên.
-5. Luật bi-da cụ thể.
-6. Điều kiện thắng / thua chi tiết trong trận.
-7. AI của Ảnh Linh Đấu Thủ.
-8. Chỉ số và tác động cụ thể từng Linh Ấn.
-9. Thiết kế Đảo Lưu Đày bản đầu.
-10. Thiết kế Cơ Hồn Thẻ UI.
-11. Thiết kế Tân Cơ Đài.
-12. Thiết kế nhân vật chính và An Nhiên.
-13. Phạm vi lát cắt chính thức đầu tiên.
-14. Thứ tự giao việc cho CoHonSu Unity Builder / Codex và CoHonSu Safety Git.
-15. Chuẩn repo GitHub và Gitleaks.
+1. Tên game tạm giữ là **Cơ Hồn Sư: Linh Ấn Tranh Đấu**.
+2. Tên quốc tế tạm giữ là **Soul Cue: Ascension**.
+3. Thế giới chính gọi là **Linh Giới Nhân Gian**.
+4. Thành phố chính giữ tên **Tân Linh Đô**.
+5. **An Nhiên** là người thầy đầu tiên / người dẫn đường cũ của nhân vật chính.
+6. **Linh Cơ Đấu** không dùng nguyên luật bi-da ngoài đời, mà dùng luật fantasy riêng xoay quanh **Linh Cầu**, **Linh Ấn** và **Linh Xác**.
+7. **Cơ Hồn Thẻ** là menu chính kiêm công cụ kể chuyện.
+8. **Tân Cơ Đài** là đấu trường nhập môn đầu tiên tại Tân Linh Đô.
+9. **Đảo Lưu Đày** bản đầu là khu vực nhỏ, tuyến tính, tập trung vào nhiệm vụ tìm lại phần Linh Xác / Linh Ấn đã mất.
+10. Nhân vật chính không cố định ngoại hình, nhưng có nền tảng chung là người bình thường bị đánh giá thấp và có **Linh Ấn Không Xác Định**.
+11. Mỗi trận Linh Cơ Đấu sử dụng các Linh Cầu đại diện cho từng phần Linh Xác / Linh Ấn.
+12. Khi một người chơi đánh một Linh Cầu vào lỗ, đối thủ sẽ bị phong ấn phần Linh Xác tương ứng.
+13. Phần bị phong ấn không phải mất cơ thể thật, mà là phần Linh Xác chiến đấu bị tan rã / khóa tạm thời.
+14. Người đánh viên Linh Cầu cuối cùng vào lỗ sẽ thắng trận; người thắng được hệ thống phục hồi toàn bộ phần Linh Xác đã bị phong ấn trong trận.
+15. Người thua bị đưa đến Đảo Lưu Đày, phải tìm lại các phần Linh Xác / Linh Ấn đã mất thông qua thử thách trên đảo, rồi mới được quay lại đấu trường.
